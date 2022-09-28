@@ -36,7 +36,7 @@ $.ajax(settings).done(function (response) {
 
   // 通信成功
 function displayResult(response){
-  console.log(response.value);
+  console.log(response);
   alert('API成功！');
 }
   // 通信失敗
